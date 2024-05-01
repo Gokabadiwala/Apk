@@ -1,0 +1,18 @@
+export default {
+  HOME: "Home",
+  SELLSCRAP: "SellScrap",
+  RATELIST: "RateList",
+  PICKUP: "Pickup",
+  MAP: "Map",
+  LOGIN: "Login",
+  VERIFYOTP: "VerifyOtp",
+  USERNAME: "Username",
+  CONFIRMDATE:"ConfirmDate",
+  FINALPAGE:"FinalPage",
+  BOOKING:"Booking",
+  HELPANDSUPPORT:'HelpAndSupport',
+  ORDERCANCLE:'OrderCancle',
+  PROFILE:'Profile',
+  ORDERDETAILS:'OrderDetails',
+  APPINFO:'AppInfo',
+};

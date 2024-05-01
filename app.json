@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "myapp",
-    "slug": "myapp",
+    "name": "GoKabadiwala",
+    "slug": "kabadiwala",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./navigation/ImagePath/logo/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode":1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./navigation/ImagePath/logo/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gokabadiwala.userapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60646f99-34d1-439c-b605-df709f80a0f1"
+      }
     }
   }
 }
